@@ -16,6 +16,5 @@
                 variantElements[variantElement].addEventListener('change', myHandlerFunction);
             }
         }
-        return 'Custom event listeners for variant options added'
     }
 })();

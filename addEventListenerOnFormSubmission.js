@@ -30,6 +30,5 @@
         
         // Add the event listener to the form
         stepOneForm.addEventListener('submit', myHandlerFunction);
-        return 'Custom event listener for form submission added'
     }
 })();
