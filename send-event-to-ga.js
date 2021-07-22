@@ -7,8 +7,8 @@
         eventLabel: 'TITANPush Events',
     });
 
-    const yesButton = document.querySelector('#btnNoIdWpnPush');
-    yesButton.onclick = ga('send', {
+    const noButton = document.querySelector('#btnNoIdWpnPush');
+    noButton.onclick = ga('send', {
         hitType: 'event',
         eventCategory: 'TITANPush Opt In',
         eventAction: 'noClick',
